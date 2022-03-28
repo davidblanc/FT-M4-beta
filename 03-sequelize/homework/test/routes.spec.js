@@ -13,20 +13,20 @@ describe('Routes Testing', function() {
   })
 
   beforeAll(async function(){
-    await Category.create({
-      name: "Autos",
-      description: "Categoria que habla sobre autos"
-    });
+    // await Category.create({
+    //   name: "Autos",
+    //   description: "Categoria que habla sobre autos"
+    // });
 
-    await Category.create({
-      name: "Deportes",
-      description: "Categoria que habla sobre Deportes"
-    });
+    // await Category.create({
+    //   name: "Deportes",
+    //   description: "Categoria que habla sobre Deportes"
+    // });
 
-    await Category.create({
-      name: "Videojuegos",
-      description: "Categoria que habla sobre Videojuegos"
-    });
+    // await Category.create({
+    //   name: "Videojuegos",
+    //   description: "Categoria que habla sobre Videojuegos"
+    // });
   })
 
   describe('pedidos http PAGES', function () {
